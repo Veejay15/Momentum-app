@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/background.js" defer></script>
+    <script src="js/greetings.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/quotes.js" defer></script>
+    <script src="js/focus.js" defer></script>
+    <script src="js/todo.js" defer></script>
+    <script src="js/modes.js" defer></script>
+  
+    <title>Momentum</title>
+
+  <body>
+  
+
+    <h2 id="clock">00:00</h2>
+    <form id="name-form" class="hidden">
+      <input
+        class="nameinput"
+        required
+        maxlength="20"
+        type="text"
+        placeholder="Input your name here"
+      />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+
+    <div class="focus-container">
+      <div class="what-focus">
+        <h3 class="focus"></h3>
+        <input class="focus-input" required
+        maxlength="50"
+        type="text"
+        placeholder="What is your focus today?"
+      />
+      </div>
+      <div class="your-focus">
+        <h1 class="focus-header">Your top priority today is</h1>
+        <div class="your-focus-container">
+          <div class="your-focus-text"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="quote">
+  </div>
+  <div class="add-quote">
+    <button>Add more quotes</button>
+    <input class="hide" type="text">
+  </div>
+
+  <div id="todo">
+    <div class="tool">
+      <ul>
+
+      </ul>
+      <input type="text" placeholder="Add Task here">
+    </div>
+    <button>
+      Todo's
+    </button>
+  </div>
+
+  </body>
+</head>
+</html>
